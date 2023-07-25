@@ -11,11 +11,8 @@ pipeline {
            }
       }
 
-     stage('BUILD') {
-        steps {
-           echo 'BUILD'
-            }
-      }
+
+//build no need for python
 
     stage('UNIT TESTS') {
         steps {
